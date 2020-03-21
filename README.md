@@ -1,10 +1,11 @@
+[Google Translate] - Português-BR
 Este projeto foi iniciado com o [Create React App] (https://github.com/facebook/create-react-app).
 
 ## Scripts disponíveis
 
 No diretório do projeto, você pode executar:
 
-### `início do fio`
+### `yarn start`
 
 Executa o aplicativo no modo de desenvolvimento. <br />
 Abra [http: // localhost: 3000] (http: // localhost: 3000) para visualizá-lo no navegador.
@@ -12,12 +13,12 @@ Abra [http: // localhost: 3000] (http: // localhost: 3000) para visualizá-lo no
 A página será recarregada se você fizer edições. <br />
 Você também verá erros de fiapos no console.
 
-### `teste de fios`
+### `yarn test`
 
 Inicia o corredor de teste no modo de exibição interativa. <br />
 Consulte a seção sobre [execução de testes] (https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
-### `construção de fios`
+### `yarn build`
 
 Cria o aplicativo para produção na pasta `build`. <br />
 Ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
@@ -27,7 +28,7 @@ Seu aplicativo está pronto para ser implantado!
 
 Consulte a seção sobre [implantação] (https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
 
-### `ejeção do fio`
+### `yarn eject`
 
 ** Nota: esta é uma operação unidirecional. Depois de "ejetar", você não pode voltar! **
 
