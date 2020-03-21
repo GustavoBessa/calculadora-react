@@ -38,15 +38,17 @@ export default class Calculator extends Component{
       values[i] = newValue
       this.setState({values})
     }
+    console.log(this.state)
   } 
-
+  
   changeSign(){
     const clearDisplay = this.state.displayValue === '0' || this.state.clearDisplay
     const i = this.state.current
     const values = [...this.state.values]
     values[i] = values[i]*(-1)
-    const displayValue = values[i]
+    const displayValue = values[i].toString()
     this.setState({displayValue,values,clearDisplay})
+    console.log(this.state)
   }
 
   setOperation(op){
@@ -75,7 +77,7 @@ export default class Calculator extends Component{
         values[1] = 0
 
       this.setState({
-        displayValue:values[0],
+        displayValue:values[0].toString(),
         operation: equals ? null : op,
         current: equals ? 0 : 1,
         clearDisplay: !equals,
