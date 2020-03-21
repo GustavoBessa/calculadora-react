@@ -64,6 +64,6 @@ Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/d
 
 Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/deployment
 
-### `construção do fio` falha ao minificar
+### `yarn build` falha ao minificar
 
 Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/trou Troubleshooting#npm-run-build-fails-to-minify
